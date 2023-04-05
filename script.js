@@ -4,7 +4,7 @@ const addStyle = (elt) => {
   if (elt != document.body)
     elt.classList.add("selected")
 }
-dfsE(addStyle);
+// dfsE(addStyle);
 
 
 const allP = querySelectorAll("p:nth-child(2n+1)");
